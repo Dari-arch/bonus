@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int a,b,c,d;
+    cin>>a>>b>>c>>d;
+    if(c>=a&&d>=b){
+        cout<<c-a<<" "<<d-b<<endl;}
+    else if (d<b&&c>a){
+        cout<<(c-1)-a<<" "<<(d+10)-b<<endl;
+    }
+    else{
+        cout<<"NO"<<endl;
+    }
+
+    return 0;
+}
